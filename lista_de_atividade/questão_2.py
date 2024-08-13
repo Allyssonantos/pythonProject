@@ -1,0 +1,17 @@
+presenca = int(input('Digite a % da sua presença: '))
+nota_prova = float(input('Digite a sua nota na prova: '))
+nota_atividade = float(input('Digite a sua nota da segunda prova: '))
+
+media_final = nota_prova + nota_atividade / 2
+recuperacao_final = media_final / 2
+
+if presenca >= 75 and media_final >= 6:
+    print('Você está aprovado!')
+else:
+    print('Você não foi aprovado')
+    if media_final <= 6:
+        recuperacao_final = float(input('Digite a nota do recuperção Final: '))
+        if recuperacao_final >= 6:
+            print('Você foi aprovado')
+        else:
+            print('Você foi reprovado!')

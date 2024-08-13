@@ -1,6 +1,6 @@
 presenca = int(input('Digite a % da sua presença: '))
 nota_prova = float(input('Digite a sua nota na prova: '))
-nota_atividade = float(input('Digite a sua sua nota na atividade: '))
+nota_atividade = float(input('Digite a sua nota da segunda prova: '))
 
 media_final = nota_prova + nota_atividade / 2
 recuperacao_paralela = media_final / 2
